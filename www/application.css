@@ -10,8 +10,9 @@ html{
     
 }
 
-section{
-    margin:200px;
+main{
+    width:87%;
+    margin: 0px auto;
 }
 
 header, footer{
@@ -29,7 +30,7 @@ header, footer{
 
 }
 
-.flex-items{
+.header-flex-items{
     margin-left: 2rem;
 }
 
@@ -84,5 +85,127 @@ header, footer{
     margin-right: 1.5rem;
 }
 
+/* index-page */
+.main-logo{
+    display: block;
+    width: 210px;
+    height: 210px;
+    margin: 0px auto;
+}
+.hero-img{
+    background-repeat: no-repeat;
+    width:100%;
+    
+}
+
+.index-h1{
+    font-weight:bold;
+    color:whitesmoke;
+    position:absolute;
+    transform: translate(46vh,16vh);
+}
+
+.index-h2{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cafe, .gens, .histories{
+    flex-direction: column;
+    padding:40px;
+    align-items: center;
+    background-color: rgba(186, 193, 200, 1);
+    /* height: 50vh; */
+    align-content: center;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+.icon-cafe, .icon-gens , .icon-histories{
+    height:100px;
+    width: 100px;
+}
+
+.flex-items{
+    justify-content: space-between;
+    width: 33.3%;
+}
+
+.flex-items:not(:last-child){
+    margin-right:20px; 
+}
+
+.index-flex-items{
+    margin-top: 20px;
+}
 
 
+section h3, section p{
+    color: white;
+
+}
+
+
+.btn{
+    display: block;
+    background-color: rgba(106, 123, 139, 1);
+    border-radius: 10px;
+    box-shadow:0px 1px rgb(47, 47, 48); ;
+    width:200px;
+    height: 50px;
+    margin: 50px auto;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.index-h4{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flex.cafe-open{
+    margin-bottom: 20px;
+    margin-left:100px;
+}
+
+.cafe-open-logo{
+    height:100px;
+    /* margin-right: 10px; */
+}
+
+.cafe-open-logo-text{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-weight: bold;
+}  
+
+.cafe-open {
+    
+    align-items: center;
+}
+
+.flex-btn{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+
+}
+
+.flex-items-buttoms{
+    margin-bottom: 40px;
+    margin-right:50px;
+}
+
+.paragraph-bottom1, .paragraph-bottom2{
+    text-align: center;
+    margin-bottom: 50px;;
+}
+
+.paragraph-bottom2{
+    font-size: 1.3rem;
+}
