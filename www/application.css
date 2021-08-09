@@ -15,7 +15,7 @@ main{
     margin: 0px auto;
 }
 
-header, footer{
+header div, footer{
     background-color: rgba(106, 123, 139, 1);
 }
 
@@ -43,7 +43,11 @@ header, footer{
     margin-right: 100px;
 }
 
-.header-flex > p , .footer-flex>div> p{
+.header-flex > a{
+    text-decoration: none;
+}
+
+.header-flex > a , .footer-flex>div> p{
     font-size: 0.9rem;
     color: white;
 }
@@ -102,7 +106,10 @@ header, footer{
     font-weight:bold;
     color:whitesmoke;
     position:absolute;
-    transform: translate(46vh,16vh);
+    left: 0;
+    right: 0;
+    top:60%;
+    text-align: center;
 }
 
 .index-h2{
@@ -120,7 +127,6 @@ header, footer{
     /* height: 50vh; */
     align-content: center;
     margin-bottom: 50px;
-    margin-right: 20px;
 }
 
 .icon-cafe, .icon-gens , .icon-histories{
@@ -129,7 +135,6 @@ header, footer{
 }
 
 .flex-items{
-    justify-content: space-between;
     width: 33.3%;
 }
 
