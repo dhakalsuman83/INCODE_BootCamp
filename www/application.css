@@ -6,7 +6,7 @@
 
 html{
     margin: 7px;
-    font-size: 20px;
+    font-size: 22px;
     
 }
 
@@ -110,6 +110,7 @@ header div, footer{
     right: 0;
     top:60%;
     text-align: center;
+    font-size: 1.8rem;
 }
 
 .index-h2{
@@ -129,9 +130,9 @@ header div, footer{
     margin-bottom: 50px;
 }
 
-.icon-cafe, .icon-gens , .icon-histories{
-    height:100px;
-    width: 100px;
+.icon-cafe, .icon-gens , .icon-histories, .cafe-open-logo{
+    height:5rem;
+    /* width: 5rem; */
 }
 
 .flex-items{
@@ -158,33 +159,29 @@ section h3, section p{
     background-color: rgba(106, 123, 139, 1);
     border-radius: 10px;
     box-shadow:0px 1px rgb(47, 47, 48); ;
-    width:200px;
-    height: 50px;
-    margin: 50px auto;
+    width:25%;
+    height: 70px;
+    margin: 70px auto;
     font-size: 0.8rem;
     color: white;
 }
 
 .index-h4{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .flex.cafe-open{
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     margin-left:100px;
-}
-
-.cafe-open-logo{
-    height:100px;
-    /* margin-right: 10px; */
 }
 
 .cafe-open-logo-text{
     padding-top: 40px;
     padding-left: 20px;
     font-weight: bold;
+    font-size: 1.4rem;
 }  
 
 .cafe-open {
@@ -192,25 +189,31 @@ section h3, section p{
     align-items: center;
 }
 
+.flex-btn-btn{
+    justify-content: space-around;
+    
+}
+
 .flex-btn{
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
-    margin-left: 150px;
-    
-
+    justify-content: space-between;
 }
 
 .flex-items-buttoms{
-    margin-bottom: 40px;
-    margin-right:50px;
+    margin-bottom: 80px;
+    font-size: 1.3rem;
 }
 
 .paragraph-bottom1, .paragraph-bottom2{
     text-align: center;
-    margin-bottom: 50px;;
+    margin-bottom: 80px;
+}
+
+.paragraph-bottom1{
+    font-size: 1.3rem;
 }
 
 .paragraph-bottom2{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
