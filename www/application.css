@@ -32,7 +32,7 @@ header div, footer{
 .flex.header-flex{
     transition: 0.2s;
     align-items: center;
-    height:90px;
+    height:4rem;
 
 }
 
@@ -78,7 +78,7 @@ header div, footer{
 
 /* footer */  
 .flex.footer-flex{
-    height:150px;
+    height:7rem;
     align-items: center;
     
 }
@@ -115,7 +115,8 @@ header div, footer{
     margin: 0px auto;
 }
 .hero-img{
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     width:100%;
     
 }
@@ -310,18 +311,35 @@ section h3, section p{
     .btn{
         margin-top:30px;
     }   
-    
-    .flex.footer-flex{
-        height:200px;
-        width: 100%;
-        align-items: center;
-        
-    }
 
     .footer-img{
         padding-top:20px;
         margin-left:0;
+        margin-bottom:0;
     }
 
+    .flex.footer-flex{
+        height:15rem;
+        align-items: center;
+        padding-top: 0;;
+        
+    }
+    .logo-items{
+        margin-right: 0;
+    }
 
+}
+
+
+
+
+/* About page styling */
+
+.about-image{
+    background-size:cover;
+    height: 80vh;
+}
+
+.flex-column{
+    flex-direction: column;
 }
