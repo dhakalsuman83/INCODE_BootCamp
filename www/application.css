@@ -240,7 +240,48 @@ section h3, section p{
 
 
 
-@media (max-width:1024px){
+
+
+
+
+
+/* About page styling */
+
+.about-image{
+    background-size:cover;
+    height: 31rem;
+    
+    
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ .about-flex-items{
+     margin-bottom: 5rem;
+     justify-content: space-around;
+
+ }
+
+ .flex-flex-items{
+     width: 40%;
+ }
+
+ .flex about-flex-items{
+     justify-content: space-between;
+ }
+
+ .about-main{
+     margin-top:50px;
+ }
+
+
+
+
+ @media (max-width:1024px){
     html{
        margin: 7px;
        font-size: 18px;
@@ -328,18 +369,15 @@ section h3, section p{
         margin-right: 0;
     }
 
-}
+    .about-image{
+        height: 20rem;
+    }
 
+    .flex-column{
+        justify-content: space-between;
+    }
 
-
-
-/* About page styling */
-
-.about-image{
-    background-size:cover;
-    height: 80vh;
-}
-
-.flex-column{
-    flex-direction: column;
+    .flex-column-items{
+        margin-bottom: 2rem;
+    }
 }
