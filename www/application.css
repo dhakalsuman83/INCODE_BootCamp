@@ -282,7 +282,7 @@ section h3, section p{
  /* Contact page */
  .contact-h2{
      text-align: center;
-     margin-bottom: 3rem;
+     margin:1rem 0 3rem;
  }
 
  .flex-column-contact{
@@ -377,6 +377,10 @@ section h3, section p{
         margin-bottom:0;
     }
 
+    .flex-flex-items{
+        width: 100%;
+    }
+
     .flex.footer-flex{
         height:15rem;
         align-items: center;
@@ -388,7 +392,7 @@ section h3, section p{
     }
 
     .about-image{
-        height: 20rem;
+        width:100%;
     }
 
     .flex-column{
