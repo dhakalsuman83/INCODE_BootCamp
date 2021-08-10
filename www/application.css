@@ -352,6 +352,10 @@ section h3, section p{
         
     }
 
+    .header-flex-items {
+        margin-left: 0;
+    }
+
     .flex{
         flex-direction: column;
         align-items: center;
