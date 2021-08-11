@@ -120,14 +120,19 @@ header div, footer{
     width:100%;
     
 }
+.hero-image-h1{
+    position:relative;
+    margin-top: 20px;
+}
+
 
 .index-h1{
     font-weight:bold;
     color:whitesmoke;
     position:absolute;
-    left: 0;
-    right: 0;
-    top:60%;
+    width: 100%;
+    top: 15%;
+    transform: translateY(-50%);
     text-align: center;
     font-size: 1.8rem;
 }
@@ -337,8 +342,11 @@ section h3, section p{
     }
 
     .index-h1 {
-        transform: translate(0,550%);
+        /* transform: translate(0,550%); */
         font-size: 1.5rem;
+    } 
+    .footer-img{
+        padding-top: 1rem;
     }
 }
 
@@ -347,10 +355,10 @@ section h3, section p{
        font-size: 12px;
     }
 
-    .index-h1{
+    /* .index-h1{
         transform: translate(5%,700%);
         
-    }
+    } */
 
     .header-flex-items {
         margin-left: 0;
@@ -376,7 +384,7 @@ section h3, section p{
     }   
 
     .footer-img{
-        padding-top:20px;
+        padding-top: 1rem;
         margin-left:0;
         margin-bottom:0;
     }
