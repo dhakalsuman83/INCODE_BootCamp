@@ -89,8 +89,7 @@ header div, footer{
 }
 
 .logo_linkedin,.logo_twitter,.logo_facebook{
-    height:1.5rem;
-    width:1.5rem;
+    width:2rem;
 }
 
 
@@ -147,7 +146,7 @@ header div, footer{
 
 .cafe, .gens, .histories{
     flex-direction: column;
-    padding:40px;
+    padding:25px;
     align-items: center;
     background-color: rgba(186, 193, 200, 1);
     /* height: 50vh; */
@@ -183,7 +182,7 @@ section h3, section p{
     display: block;
     background-color: rgba(106, 123, 139, 1);
     border-radius: 10px;
-    box-shadow:0px 1px rgb(47, 47, 48); ;
+    box-shadow:0px 1px rgb(47, 47, 48); 
     width:25%;
     height: 70px;
     margin: 70px auto;
@@ -304,14 +303,14 @@ section h3, section p{
  }
 
 
- @media (max-width:1024px){
+ @media screen and (max-width:1024px){
     html{
        margin: 7px;
        font-size: 18px;
     }
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
 
     html{
         margin: 5px;
@@ -345,12 +344,28 @@ section h3, section p{
         /* transform: translate(0,550%); */
         font-size: 1.5rem;
     } 
+
+    .flex.cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-items {
+        width:70%;
+        
+    }
+
+    .flex-items:not(:last-child) {
+
+        margin-right:0px;
+    }
+
     .footer-img{
         padding-top: 1rem;
     }
 }
 
-@media (max-width:480px){
+@media screen and (max-width:480px){
     html{
        font-size: 12px;
     }
@@ -371,12 +386,25 @@ section h3, section p{
         width:100%;
     }
 
-    .flex-items:not(:last-child){
-        margin-right:0; 
+    .flex.cards{
+        flex-direction: column;
+        align-items: center;
     }
+
+    .flex-items {
+        width:90%;
+        
+    }
+
+    .flex-items:not(:last-child) {
+
+        margin-right:0px;
+    }
+
     .flex.cafe-open{
         margin-left: 0;
         margin-bottom: 50px;
+       
     }
 
     .btn{
@@ -386,7 +414,7 @@ section h3, section p{
     .footer-img{
         padding-top: 1rem;
         margin-left:0;
-        margin-bottom:0;
+        margin-bottom:0.6rem;
     }
 
     .flex-flex-items{
@@ -394,13 +422,26 @@ section h3, section p{
     }
 
     .flex.footer-flex{
-        height:15rem;
+        height:18rem;
         align-items: center;
-        padding-top: 0;;
-        
+    
     }
+
+    .flex.footer-flex p{
+        margin-bottom: 0;
+    }
+
+    .flex.footer-flex-items2{
+        justify-content: space-around;
+    }
+
     .logo-items{
         margin-right: 0;
+    }
+
+    .flex-social-logos{
+        flex-grow: 1;
+        justify-content: space-around;
     }
 
     .about-image{
