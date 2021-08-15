@@ -350,8 +350,9 @@ section h3, section p{
         align-items: center;
     }
 
-    .flex-items {
+    .flex.flex-items {
         width:70%;
+        justify-content: center;
         
     }
 
